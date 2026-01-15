@@ -1,0 +1,460 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgb(54, 54, 54);
+}
+.Container {
+  margin: 30px;
+  width: auto;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 box6"
+    "box7 box8 box9";
+  gap: 10px 10px;
+}
+/* box 1 */
+.box-1 {
+  grid-area: box1;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box1-smallbox1 box1-smallbox2 box1-smallbox3"
+    "box1-smallbox4 box1-smallbox5 box1-smallbox6";
+  gap: 5px 5px;
+  padding: 10px;
+}
+.box1-smallbox1 {
+  grid-area: box1-smallbox1;
+  background-color: red;
+}
+.box1-smallbox2 {
+  grid-area: box1-smallbox2;
+  background-color: orangered;
+}
+.box1-smallbox3 {
+  grid-area: box1-smallbox3;
+  background-color: orange;
+}
+.box1-smallbox4 {
+  grid-area: box1-smallbox4;
+  background-color: darkgreen;
+}
+.box1-smallbox5 {
+  grid-area: box1-smallbox5;
+  background-color: green;
+}
+.box1-smallbox6 {
+  grid-area: box1-smallbox6;
+  background-color: lightgreen;
+}
+/* box2 */
+.box-2 {
+  grid-area: box2;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box2-smallbox1 box2-smallbox1 box2-smallbox3"
+    "box2-smallbox4 box2-smallbox5 box2-smallbox3";
+  gap: 5px 5px;
+  padding: 10px 0px 0px 10px;
+}
+.box2-smallbox1 {
+  grid-area: box2-smallbox1;
+  background-color: red;
+}
+.box2-smallbox2 {
+  grid-area: box2-smallbox1;
+  background-color: red;
+}
+.box2-smallbox3 {
+  grid-area: box2-smallbox3;
+  background-color: orangered;
+}
+.box2-smallbox4 {
+  grid-area: box2-smallbox4;
+  background-color: darkgreen;
+}
+.box2-smallbox5 {
+  grid-area: box2-smallbox5;
+  background-color: green;
+}
+.box2-smallbox6 {
+  grid-area: box2-smallbox6;
+  background-color: lightgreen;
+}
+/* box3 */
+.box-3 {
+  grid-area: box3;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-areas:
+    "box3-smallbox3 box3-smallbox3 box3-smallbox3"
+    "box3-smallbox4 box3-smallbox1 box3-smallbox1"
+    "box3-smallbox5 box3-smallbox5 box3-smallbox5";
+  gap: 5px 5px;
+  padding: 10px 0px 0px 10px;
+}
+.box3-smallbox1 {
+  grid-area: box3-smallbox1;
+  background-color: red;
+}
+.box3-smallbox2 {
+  grid-area: box3-smallbox1;
+  background-color: red;
+}
+.box3-smallbox3 {
+  grid-area: box3-smallbox3;
+  background-color: orangered;
+}
+.box3-smallbox4 {
+  grid-area: box3-smallbox4;
+  background-color: darkgreen;
+}
+.box3-smallbox5 {
+  grid-area: box3-smallbox5;
+  background-color: green;
+}
+.box3-smallbox6 {
+  grid-area: box3-smallbox6;
+  background-color: lightgreen;
+}
+/* box4 */
+.box-4 {
+  grid-area: box4;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.8fr 1fr 0.5fr;
+  grid-template-areas:
+    "orangered-box red-box"
+    "darkgreen-box green-box"
+    "orange-box orange-box";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box4-orangered {
+  grid-area: orangered-box;
+  background-color: orangered;
+}
+.box4-red {
+  grid-area: red-box;
+  background-color: red;
+}
+.box4-darkgreen {
+  grid-area: darkgreen-box;
+  background-color: darkgreen;
+}
+.box4-green {
+  grid-area: green-box;
+  background-color: green;
+}
+.box4-orange {
+  grid-area: orange-box;
+  background-color: orange;
+}
+/* box5 */
+.box-5 {
+  grid-area: box5;
+  background-color: black;
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "box1 box2 box3 box4 box5 box6"
+    "box7 box8 box9 box10 box11 box12"
+    "box13 box14 box15 box16 box17 box18";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box5-box1 {
+  grid-area: box1;
+  background-color: darkgreen;
+}
+.box5-box2 {
+  grid-area: box2;
+  background-color: orangered;
+}
+.box5-box3 {
+  grid-area: box3;
+  background-color: darkgreen;
+}
+.box5-box4 {
+  grid-area: box4;
+  background-color: red;
+}
+.box5-box5 {
+  grid-area: box5;
+  background-color: green;
+}
+.box5-box6 {
+  grid-area: box6;
+  background-color: orangered;
+}
+.box5-box7 {
+  grid-area: box7;
+  background-color: orange;
+}
+.box5-box8 {
+  grid-area: box8;
+  background-color: darkgreen;
+}
+.box5-box9 {
+  grid-area: box9;
+  background-color: orangered;
+}
+.box5-box10 {
+  grid-area: box10;
+  background-color: darkgreen;
+}
+.box5-box11 {
+  grid-area: box11;
+  background-color: orange;
+}
+.box5-box12 {
+  grid-area: box12;
+  background-color: red;
+}
+.box5-box13 {
+  grid-area: box13;
+  background-color: darkgreen;
+}
+.box5-box14 {
+  grid-area: box14;
+  background-color: red;
+}
+.box5-box15 {
+  grid-area: box15;
+  background-color: green;
+}
+.box5-box16 {
+  grid-area: box16;
+  background-color: orangered;
+}
+.box5-box17 {
+  grid-area: box17;
+  background-color: darkgreen;
+}
+.box5-box18 {
+  grid-area: box18;
+  background-color: green;
+}
+
+/* box6 */
+.box-6 {
+  grid-area: box6;
+  background-color: black;
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "box6box1 box6box1 box6box2 box6box3"
+    "box6box4 box6box5 box6box6 ."
+    "box6box7 box6box7 box6box8 box6box9"
+    "box6box7 box6box7 box6box10 ."
+    "box6box11 box6box11 box6box11 box6box12";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box6-box1 {
+  grid-area: box6box1;
+  background-color: red;
+}
+.box6-box2 {
+  grid-area: box6box2;
+  background-color: darkgreen;
+}
+.box6-box3 {
+  grid-area: box6box3;
+  background-color: orange;
+}
+.box6-box4 {
+  grid-area: box6box4;
+  background-color: orangered;
+}
+.box6-box5 {
+  grid-area: box6box5;
+  background-color: darkgreen;
+}
+.box6-box6 {
+  grid-area: box6box6;
+  background-color: green;
+}
+.box6-box7 {
+  grid-area: box6box7;
+  background-color: orange;
+}
+.box6-box8 {
+  grid-area: box6box8;
+  background-color: green;
+}
+.box6-box9 {
+  grid-area: box6box9;
+  background-color: red;
+}
+.box6-box10 {
+  grid-area: box6box10;
+  background-color: darkgreen;
+}
+.box6-box11 {
+  grid-area: box6box11;
+  background-color: green;
+}
+.box6-box12 {
+  grid-area: box6box12;
+  background-color: orange;
+}
+/* box7 */
+.box-7 {
+  grid-area: box7;
+  background-color: black;
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+    "box7box1 box7box2"
+    "box7box3 box7box4";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box7-box1 {
+  grid-area: box7box1;
+  background-color: orange;
+}
+.box7-box2 {
+  grid-area: box7box2;
+  background-color: green;
+}
+.box7-box3 {
+  grid-area: box7box3;
+  background-color: red;
+}
+.box7-box4 {
+  grid-area: box7box4;
+  background-color: darkgreen;
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box4box1 box4box1"
+    "box4box2 box4box3";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box4-box1 {
+  grid-area: box4box1;
+  background-color: rgb(36, 150, 36);
+}
+.box4-box2 {
+  grid-area: box4box2;
+  background-color: rgb(4, 163, 4);
+}
+.box4-box3 {
+  grid-area: box4box3;
+  background-color: orange;
+}
+.box-8 {
+  grid-area: box8;
+  background-color: black;
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "box8box1 box8box2 box8box3 box8box4 box8box5"
+    "box8box6 box8box7 box8box8 box8box8 box8box8"
+    "box8box9 box8box9 box8box9 box8box9 box8box9";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box8-box1 {
+  grid-area: box8box1;
+  background-color: red;
+}
+.box8-box2 {
+  grid-area: box8box2;
+  background-color: orangered;
+}
+.box8-box3 {
+  grid-area: box8box3;
+  background-color: lightgreen;
+}
+.box8-box4 {
+  grid-area: box8box4;
+  background-color: green;
+}
+.box8-box5 {
+  grid-area: box8box5;
+  background-color: darkgreen;
+}
+.box8-box6 {
+  grid-area: box8box6;
+  background-color: orangered;
+}
+.box8-box7 {
+  grid-area: box8box7;
+  background-color: red;
+}
+.box8-box8 {
+  grid-area: box8box8;
+  background-color: orangered;
+}
+.box8-box9 {
+  grid-area: box8box9;
+  background-color: green;
+}
+.box-9 {
+  grid-area: box9;
+  background-color: black;
+  display: grid;
+  color: white;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "box9box1 box9box1 box9box1"
+    "box9box2 box9box3 box9box3"
+    "box9box2 box9box4 box9box5";
+  gap: 5px 5px;
+  padding: 10px 10px 10px 10px;
+}
+.box9-box1 {
+  grid-area: box9box1;
+  background-color: orange;
+}
+.box9-box2 {
+  grid-area: box9box2;
+  background-color: darkgreen;
+}
+.box9-box3 {
+  grid-area: box9box3;
+  background-color: green;
+}
+.box9-box4 {
+  grid-area: box9box4;
+  background-color: orangered;
+}
+.box9-box5 {
+  grid-area: box9box5;
+  background-color: orange;
+}
