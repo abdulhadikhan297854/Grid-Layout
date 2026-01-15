@@ -58,7 +58,7 @@ body {
 }
 .box1-smallbox6 {
   grid-area: box1-smallbox6;
-  background-color: lightgreen;
+  background-color: rgb(36, 150, 36);
 }
 /* box2 */
 .box-2 {
@@ -95,7 +95,7 @@ body {
 }
 .box2-smallbox6 {
   grid-area: box2-smallbox6;
-  background-color: lightgreen;
+  background-color: rgb(36, 150, 36);
 }
 /* box3 */
 .box-3 {
@@ -129,7 +129,7 @@ body {
 }
 .box3-smallbox5 {
   grid-area: box3-smallbox5;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box3-smallbox6 {
   grid-area: box3-smallbox6;
@@ -164,7 +164,7 @@ body {
 }
 .box4-green {
   grid-area: green-box;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box4-orange {
   grid-area: orange-box;
@@ -195,7 +195,7 @@ body {
 }
 .box5-box3 {
   grid-area: box3;
-  background-color: darkgreen;
+  background-color: green;
 }
 .box5-box4 {
   grid-area: box4;
@@ -203,7 +203,7 @@ body {
 }
 .box5-box5 {
   grid-area: box5;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box5-box6 {
   grid-area: box6;
@@ -223,7 +223,7 @@ body {
 }
 .box5-box10 {
   grid-area: box10;
-  background-color: darkgreen;
+  background-color: green;
 }
 .box5-box11 {
   grid-area: box11;
@@ -243,7 +243,7 @@ body {
 }
 .box5-box15 {
   grid-area: box15;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box5-box16 {
   grid-area: box16;
@@ -255,7 +255,7 @@ body {
 }
 .box5-box18 {
   grid-area: box18;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 
 /* box6 */
@@ -305,7 +305,7 @@ body {
 }
 .box6-box8 {
   grid-area: box6box8;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box6-box9 {
   grid-area: box6box9;
@@ -317,7 +317,7 @@ body {
 }
 .box6-box11 {
   grid-area: box6box11;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box6-box12 {
   grid-area: box6box12;
@@ -343,7 +343,7 @@ body {
 }
 .box7-box2 {
   grid-area: box7box2;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box7-box3 {
   grid-area: box7box3;
@@ -398,7 +398,7 @@ body {
 }
 .box8-box3 {
   grid-area: box8box3;
-  background-color: lightgreen;
+  background-color: rgb(36, 150, 36);
 }
 .box8-box4 {
   grid-area: box8box4;
@@ -422,7 +422,7 @@ body {
 }
 .box8-box9 {
   grid-area: box8box9;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box-9 {
   grid-area: box9;
@@ -448,7 +448,7 @@ body {
 }
 .box9-box3 {
   grid-area: box9box3;
-  background-color: green;
+  background-color: rgb(36, 150, 36);
 }
 .box9-box4 {
   grid-area: box9box4;
